@@ -38,11 +38,11 @@ The supplied product-detail screenshot shows Sauce Labs Backpack with image, des
 
 | ID | Feature | Test steps | Expected result | Status |
 |---|---|---|---|---|
-| SD-SORT-001 | Sorting | Select Name (A to Z). | Products sort alphabetically ascending. | Not Run |
-| SD-SORT-002 | Sorting | Select Name (Z to A). | Products sort alphabetically descending. | Not Run |
-| SD-SORT-003 | Sorting | Select Price (low to high). | Prices sort ascending. | Not Run |
-| SD-SORT-004 | Sorting | Select Price (high to low). | Prices sort descending. | Not Run |
-| SD-SORT-005 | Sorting | Change sort options repeatedly. | Product order updates correctly each time. | Not Run |
+| SD-SORT-001 | Sorting | Select Name (A to Z). | Products sort alphabetically ascending. | Pass |
+| SD-SORT-002 | Sorting | Select Name (Z to A). | Products sort alphabetically descending. | Pass |
+| SD-SORT-003 | Sorting | Select Price (low to high). | Prices sort ascending. | Pass |
+| SD-SORT-004 | Sorting | Select Price (high to low). | Prices sort descending. | Pass |
+| SD-SORT-005 | Sorting | Change sort options repeatedly. | Product order updates correctly each time. | Pass |
 | SD-CART-001 | Cart | Add one product to cart. | Cart indicator updates and product appears in cart. | Not Run |
 | SD-CART-002 | Cart | Remove an added product. | Cart indicator and contents update. | Not Run |
 | SD-CART-003 | Cart | Open cart after adding multiple products. | Cart shows selected products and visible details. | Not Run |
