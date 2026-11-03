@@ -43,9 +43,9 @@ The supplied product-detail screenshot shows Sauce Labs Backpack with image, des
 | SD-SORT-003 | Sorting | Select Price (low to high). | Prices sort ascending. | Pass |
 | SD-SORT-004 | Sorting | Select Price (high to low). | Prices sort descending. | Pass |
 | SD-SORT-005 | Sorting | Change sort options repeatedly. | Product order updates correctly each time. | Pass |
-| SD-CART-001 | Cart | Add one product to cart. | Cart indicator updates and product appears in cart. | Not Run |
-| SD-CART-002 | Cart | Remove an added product. | Cart indicator and contents update. | Not Run |
-| SD-CART-003 | Cart | Open cart after adding multiple products. | Cart shows selected products and visible details. | Not Run |
+| SD-CART-001 | Cart | Add one product to cart. | Cart indicator updates and product appears in cart. | Pass |
+| SD-CART-002 | Cart | Add a second product and verify cart count. | Cart count updates to two. | Pass |
+| SD-CART-003 | Cart | Open cart after adding multiple products. | Cart shows selected products and visible details. | Pass |
 | SD-CHECKOUT-001 | Checkout | Submit checkout form with required fields empty. | Validation prevents progression. | Not Run |
 | SD-CHECKOUT-002 | Checkout | Enter fictitious demo information and continue. | User proceeds to order overview. | Not Run |
 | SD-CHECKOUT-003 | Checkout | Review overview and finish order. | Order confirmation is displayed. | Not Run |
@@ -53,3 +53,13 @@ The supplied product-detail screenshot shows Sauce Labs Backpack with image, des
 | SD-LOGOUT-001 | Logout | Open menu and select Logout. | Login page is displayed. | Not Run |
 
 Use only demo credentials published by SauceDemo. Never store passwords, tokens, or personal data in this repository. Record actual observations; do not infer success.
+
+
+## Additional executed cart checks
+
+| ID | Test | Expected result | Status |
+|---|---|---|---|
+| SD-CART-004 | Remove one of two cart products. | Remaining product stays in cart. | Pass |
+| SD-CART-005 | Remove all cart products. | Cart becomes empty. | Pass |
+| SD-CART-006 | Select Continue Shopping. | Inventory page opens. | Pass |
+| SD-CART-007 | Add several products and inspect names/prices. | Cart displays selected product details correctly. | Pass |
