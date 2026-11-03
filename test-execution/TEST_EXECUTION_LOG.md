@@ -4,16 +4,16 @@ Fill one row per execution. Do not set a result until the test has actually been
 
 ## Environment
 - Application URL: https://www.saucedemo.com/
-- Date/time (include timezone):
-- Operating system:
-- Browser and version:
-- Viewport/device:
+- Date/time (include timezone): 2026-11-03, approximately 20:51 IST (from screenshot)
+- Operating system: Windows desktop (exact version not verified)
+- Browser and version: Google Chrome (version not verified)
+- Viewport/device: Desktop browser; screenshot resolution 1592 × 922
 - Tester: Humza Warsi
 
 ## Execution results
 | Test Case ID | Date | Status (Pass/Fail/Blocked/Not Run) | Actual result / notes | Evidence |
 |---|---|---|---|---|
-| SD-LOGIN-001 | — | Not Run | — | — |
+| SD-LOGIN-001 | 2026-11-03 | Pass | Valid demo login succeeded; browser navigated to the inventory page and product cards were visible. | User screenshot in conversation |
 | SD-LOGIN-002 | — | Not Run | — | — |
 | SD-LOGIN-003 | — | Not Run | — | — |
 | SD-LOGIN-004 | — | Not Run | — | — |
@@ -31,9 +31,9 @@ Fill one row per execution. Do not set a result until the test has actually been
 
 ## Summary
 - Total: 15
-- Passed: 0
+- Passed: 1
 - Failed: 0
 - Blocked: 0
-- Not run: 15
+- Not run: 14
 
 Update counts whenever statuses change.
