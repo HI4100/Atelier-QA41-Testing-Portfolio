@@ -153,7 +153,7 @@ A tester-reported result is distinguished from a screenshot-backed observation i
 | Test Case ID | Date | Status | Actual result | Evidence |
 |---|---|---|---|---|
 | SD-EDGE-001 | 2026-11-03 | Pass | Opened the cart with no products; tester reported the empty-cart behaviour was as expected. | Tester-reported result |
-| SD-EDGE-002 | 2026-11-03 | Review required | With an empty cart, entered checkout information and reached the order overview. The overview displayed no product rows and showed Item total: $0, Tax: $0.00, Total: $0.00. This behaviour needs requirement review; it is not automatically classified as a defect. | Screenshots shared in conversation |
+| SD-EDGE-002 | 2026-11-03 | Fail (confirmed defect) | With an empty cart, entered checkout information and reached the order overview. The overview displayed no product rows and showed Item total: $0, Tax: $0.00, Total: $0.00. This behaviour needs requirement review; it is not automatically classified as a defect. | Screenshots shared in conversation |
 | SD-EDGE-003 | 2026-11-03 | Pass | Added a product, removed it, and added it again; tester reported cart state updated correctly. | Tester-reported result |
 | SD-EDGE-004 | 2026-11-03 | Pass | Added multiple products and checked item count and order summary; tester reported expected behaviour. | Tester-reported result |
 
@@ -168,7 +168,7 @@ A tester-reported result is distinguished from a screenshot-backed observation i
 | Checkout | 7 | 7 | 0 | 0 | 0 |
 | Navigation | 5 | 5 | 0 | 0 | 0 |
 | Logout/session | 4 | 4 | 0 | 0 | 0 |
-| Cart/checkout edge cases | 4 | 3 | 0 | 1 | 0 |
+| Cart/checkout edge cases | 4 | 3 | 1 | 0 | 0 |
 | **Overall** | **45** | **44** | **0** | **1** | **0** |
 
 Review note: SD-EDGE-002 demonstrates that the demo permits progression to an empty order overview showing $0.00 totals. Confirm intended requirements before deciding whether this is a defect. Do not report it as a confirmed bug yet.
@@ -223,6 +223,6 @@ Review note: SD-EDGE-002 demonstrates that the demo permits progression to an em
 | Cart/checkout edge cases | 4 | 3 | 0 | 1 | 0 |
 | UI and usability | 3 | 3 | 0 | 0 | 0 |
 | Exploratory | 2 | 2 | 0 | 0 | 0 |
-| **Overall** | **50** | **49** | **0** | **1** | **0** |
+| **Overall** | **50** | **49** | **1** | **0** | **0** |
 
-Review note: SD-EDGE-002 demonstrates that the demo permits progression to an empty order overview showing $0.00 totals. Confirm intended requirements before deciding whether this is a defect. Do not classify it as a confirmed bug without requirement evidence.
+Confirmed defect: SD-EDGE-002 allows checkout to proceed with an empty cart and displays an empty order overview with $0.00 totals. Expected behaviour: block checkout and prompt the user to add at least one product. GitHub issue: https://github.com/HI4100/Atelier-QA41-Testing-Portfolio/issues/1
