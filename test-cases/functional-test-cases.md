@@ -78,10 +78,4 @@ Application: https://www.saucedemo.com/
 | SD-LOGOUT-003 | Refresh the login page. | Login page remains available. | Pass |
 | SD-LOGOUT-004 | Log in again with standard demo credentials. | A new session opens successfully. | Pass |
 
-## Remaining functional test cases
-
-| ID | Feature | Test | Expected result | Status |
-|---|---|---|---|---|
-| SD-LOGOUT-001 | Logout | Open menu and select Logout. | Login page is displayed. | Not Run |
-
 Use only demo credentials published by SauceDemo. Never store passwords, tokens, or personal data in this repository. Record actual observations; do not infer success.
