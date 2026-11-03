@@ -78,3 +78,26 @@ A tester-reported result is distinguished from a screenshot-backed observation i
 | Product sorting | 5 | 5 | 0 | 0 | 0 |
 | Shopping cart | 7 | 7 | 0 | 0 | 0 |
 | **Overall executed** | **25** | **25** | **0** | **0** | **0** |
+
+
+## Checkout test execution results
+
+| Test Case ID | Date | Status | Actual result | Evidence |
+|---|---|---|---|---|
+| SD-CHECKOUT-001 | 2026-11-03 | Pass | Checkout information page opened from the cart. | Tester-reported result |
+| SD-CHECKOUT-002 | 2026-11-03 | Pass | Submitting all fields empty displayed "Error: First Name is required". | Screenshot shared in conversation |
+| SD-CHECKOUT-003 | 2026-11-03 | Pass | Entering only first name displayed "Error: Last Name is required". | Tester-reported result |
+| SD-CHECKOUT-004 | 2026-11-03 | Pass | Entering first and last name without postal code displayed "Error: Postal Code is required". | Tester-reported result |
+| SD-CHECKOUT-005 | 2026-11-03 | Pass | Fictitious valid checkout information allowed progression to the order overview. | Tester-reported result |
+| SD-CHECKOUT-006 | 2026-11-03 | Pass | Tester reported that product details and displayed totals were correct on the overview. | Tester-reported result |
+| SD-CHECKOUT-007 | 2026-11-03 | Pass | Finish completed the demo checkout; confirmation page displayed "Thank you for your order!" | Screenshot shared in conversation |
+
+## Updated summary
+| Category | Total | Passed | Failed | Blocked | Not run |
+|---|---:|---:|---:|---:|---:|
+| Login | 7 | 7 | 0 | 0 | 0 |
+| Inventory | 6 | 6 | 0 | 0 | 0 |
+| Product sorting | 5 | 5 | 0 | 0 | 0 |
+| Shopping cart | 7 | 7 | 0 | 0 | 0 |
+| Checkout | 7 | 7 | 0 | 0 | 0 |
+| **Overall executed** | **32** | **32** | **0** | **0** | **0** |
