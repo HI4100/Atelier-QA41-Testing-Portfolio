@@ -89,3 +89,12 @@ Use only demo credentials published by SauceDemo. Never store passwords, tokens,
 | SD-UI-002 | Check buttons and links for visibility and usability. | Controls are visible and usable. | Pass |
 | SD-UI-003 | Resize browser window and inspect layout. | Layout remains usable at tested window sizes. | Pass |
 
+
+
+## Exploratory testing
+
+| ID | Test | Expected result | Status |
+|---|---|---|---|
+| SD-EXP-001 | Refresh inventory page after login. | Session and inventory remain available. | Pass |
+| SD-EXP-002 | Use Reset App State from the menu. | Cart contents and application state reset. | Pass |
+
