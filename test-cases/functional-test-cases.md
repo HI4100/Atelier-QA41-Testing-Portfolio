@@ -1,12 +1,13 @@
 # Functional Test Cases — SauceDemo
 
-Application: https://www.saucedemo.com/
+Application: https://www.saucedemo.com/  
+Execution status: Manual checks completed on 2026-11-03. See [execution log](../test-execution/TEST_EXECUTION_LOG.md).
 
 ## Login and authentication
 
 | ID | Test | Expected result | Status |
 |---|---|---|---|
-| SD-LOGIN-001 | Valid login with standard demo credentials. | Inventory page opens. | Pass |
+| SD-LOGIN-001 | Log in with standard demo credentials. | Inventory page opens. | Pass |
 | SD-LOGIN-002 | Submit with both fields empty. | Login prevented; username-required validation appears. | Pass |
 | SD-LOGIN-003 | Submit with username empty and password entered. | Username-required validation appears. | Pass |
 | SD-LOGIN-004 | Submit with username entered and password empty. | Password-required validation appears. | Pass |
@@ -73,13 +74,19 @@ Application: https://www.saucedemo.com/
 
 | ID | Test | Expected result | Status |
 |---|---|---|---|
-| SD-LOGOUT-001 | Select Logout from the hamburger menu. | Login page appears. | Pass |
-| SD-LOGOUT-002 | Use browser Back after logout. | An active logged-in session is not restored. | Pass |
-| SD-LOGOUT-003 | Refresh the login page. | Login page remains available. | Pass |
-| SD-LOGOUT-004 | Log in again with standard demo credentials. | A new session opens successfully. | Pass |
+| SD-LOGOUT-001 | Select Logout from hamburger menu. | Login page appears. | Pass |
+| SD-LOGOUT-002 | Use browser Back after logout. | Active logged-in session is not restored. | Pass |
+| SD-LOGOUT-003 | Refresh login page. | Login page remains available. | Pass |
+| SD-LOGOUT-004 | Log in again with standard demo credentials. | New session opens successfully. | Pass |
 
-Use only demo credentials published by SauceDemo. Never store passwords, tokens, or personal data in this repository. Record actual observations; do not infer success.
+## Cart and checkout edge cases
 
+| ID | Test | Expected result | Status |
+|---|---|---|---|
+| SD-EDGE-001 | Open cart without adding products. | Empty cart is displayed. | Pass |
+| SD-EDGE-002 | Attempt checkout with an empty cart. | Checkout is blocked and user is prompted to add at least one product. | **Fail — BUG-001** |
+| SD-EDGE-003 | Add a product, remove it, then add it again. | Cart state updates correctly. | Pass |
+| SD-EDGE-004 | Add multiple products and inspect count and order summary. | Item count and summary match selected products. | Pass |
 
 ## UI and usability
 
@@ -89,8 +96,6 @@ Use only demo credentials published by SauceDemo. Never store passwords, tokens,
 | SD-UI-002 | Check buttons and links for visibility and usability. | Controls are visible and usable. | Pass |
 | SD-UI-003 | Resize browser window and inspect layout. | Layout remains usable at tested window sizes. | Pass |
 
-
-
 ## Exploratory testing
 
 | ID | Test | Expected result | Status |
@@ -98,3 +103,12 @@ Use only demo credentials published by SauceDemo. Never store passwords, tokens,
 | SD-EXP-001 | Refresh inventory page after login. | Session and inventory remain available. | Pass |
 | SD-EXP-002 | Use Reset App State from the menu. | Cart contents and application state reset. | Pass |
 
+## Test result summary
+
+- Total manual checks: 50
+- Passed: 49
+- Failed: 1 (SD-EDGE-002 / BUG-001)
+- Blocked: 0
+- Not run: 0
+
+Use only demo credentials published by SauceDemo. Never store passwords, tokens, or personal data in this repository.
