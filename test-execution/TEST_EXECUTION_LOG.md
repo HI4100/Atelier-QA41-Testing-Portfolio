@@ -200,3 +200,29 @@ An additional result was reported as "UI04 - PERFECT", but its test action and e
 | **Overall** | **48** | **47** | **0** | **1** | **0** |
 
 Review note: SD-EDGE-002 demonstrates that the demo permits progression to an empty order overview showing $0.00 totals. Confirm intended requirements before deciding whether this is a defect.
+
+
+## Exploratory test execution results
+
+| Test Case ID | Date | Status | Actual result | Evidence |
+|---|---|---|---|---|
+| SD-EXP-001 | 2026-11-03 | Pass | Refreshed the inventory page after login; tester reported the session and inventory remained available. | Tester-reported result |
+| SD-EXP-002 | 2026-11-03 | Pass | Used Reset App State from the menu; tester reported cart contents and application state reset as expected. | Tester-reported result |
+
+## Final execution summary
+
+| Category | Checks | Passed | Failed | Review required | Not run |
+|---|---:|---:|---:|---:|---:|
+| Login | 7 | 7 | 0 | 0 | 0 |
+| Inventory | 6 | 6 | 0 | 0 | 0 |
+| Product sorting | 5 | 5 | 0 | 0 | 0 |
+| Shopping cart | 7 | 7 | 0 | 0 | 0 |
+| Checkout | 7 | 7 | 0 | 0 | 0 |
+| Navigation | 5 | 5 | 0 | 0 | 0 |
+| Logout/session | 4 | 4 | 0 | 0 | 0 |
+| Cart/checkout edge cases | 4 | 3 | 0 | 1 | 0 |
+| UI and usability | 3 | 3 | 0 | 0 | 0 |
+| Exploratory | 2 | 2 | 0 | 0 | 0 |
+| **Overall** | **50** | **49** | **0** | **1** | **0** |
+
+Review note: SD-EDGE-002 demonstrates that the demo permits progression to an empty order overview showing $0.00 totals. Confirm intended requirements before deciding whether this is a defect. Do not classify it as a confirmed bug without requirement evidence.
