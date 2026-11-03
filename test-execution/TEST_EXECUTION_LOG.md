@@ -101,3 +101,25 @@ A tester-reported result is distinguished from a screenshot-backed observation i
 | Shopping cart | 7 | 7 | 0 | 0 | 0 |
 | Checkout | 7 | 7 | 0 | 0 | 0 |
 | **Overall executed** | **32** | **32** | **0** | **0** | **0** |
+
+
+## Navigation test execution results
+
+| Test Case ID | Date | Status | Actual result | Evidence |
+|---|---|---|---|---|
+| SD-NAV-001 | 2026-11-03 | Pass | Hamburger menu opened successfully. | Tester-reported result |
+| SD-NAV-002 | 2026-11-03 | Pass | All Items selected; inventory page opened successfully. | Tester-reported result |
+| SD-NAV-003 | 2026-11-03 | Pass | About selected; expected external page opened successfully. | Tester-reported result |
+| SD-NAV-004 | 2026-11-03 | Pass | Continue Shopping returned to inventory successfully. | Tester-reported result |
+| SD-NAV-005 | 2026-11-03 | Pass | Browser Back and Forward navigation behaved as expected. | Tester-reported result |
+
+## Updated summary
+| Category | Total | Passed | Failed | Blocked | Not run |
+|---|---:|---:|---:|---:|---:|
+| Login | 7 | 7 | 0 | 0 | 0 |
+| Inventory | 6 | 6 | 0 | 0 | 0 |
+| Product sorting | 5 | 5 | 0 | 0 | 0 |
+| Shopping cart | 7 | 7 | 0 | 0 | 0 |
+| Checkout | 7 | 7 | 0 | 0 | 0 |
+| Navigation | 5 | 5 | 0 | 0 | 0 |
+| **Overall executed** | **37** | **37** | **0** | **0** | **0** |
