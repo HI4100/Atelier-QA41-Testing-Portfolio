@@ -68,6 +68,7 @@ The Postman collection uses JSONPlaceholder, a public fake REST API intended for
 
 ## How to use
 
+0. Read the [test plan](TEST_PLAN.md).
 1. Read the [functional test cases](test-cases/functional-test-cases.md).
 2. Review the [test execution log](test-execution/TEST_EXECUTION_LOG.md).
 3. Read the [BUG-001 defect report](bug-reports/BUG-001-empty-cart-checkout.md).
