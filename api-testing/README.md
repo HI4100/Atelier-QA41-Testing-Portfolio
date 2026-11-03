@@ -6,7 +6,7 @@ This folder contains a prepared REST API practice suite for JSONPlaceholder.
 
 JSONPlaceholder is a public fake REST API for learning and prototyping. POST, PUT, PATCH, and DELETE responses simulate API behaviour; they do not permanently change the service's stored data. Do not use real credentials or personal data.
 
-The collection is **prepared but not yet executed**. Do not count these API checks as passed until you import and run them in Postman and inspect the results.
+The collection is **prepared but has not been formally executed in Postman**. The response bodies for API-001 and API-002 were independently spot-checked; their HTTP status codes, response times and automated Postman assertions were not captured. API-003 through API-007 remain pending. Do not count any of these checks as formal Postman passes until the collection has been run and its results recorded.
 
 ## Import into Postman
 
