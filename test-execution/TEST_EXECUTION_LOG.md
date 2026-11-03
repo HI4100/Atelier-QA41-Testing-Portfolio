@@ -220,7 +220,7 @@ Review note: SD-EDGE-002 demonstrates that the demo permits progression to an em
 | Checkout | 7 | 7 | 0 | 0 | 0 |
 | Navigation | 5 | 5 | 0 | 0 | 0 |
 | Logout/session | 4 | 4 | 0 | 0 | 0 |
-| Cart/checkout edge cases | 4 | 3 | 0 | 1 | 0 |
+| Cart/checkout edge cases | 4 | 3 | 1 | 0 | 0 |
 | UI and usability | 3 | 3 | 0 | 0 | 0 |
 | Exploratory | 2 | 2 | 0 | 0 | 0 |
 | **Overall** | **50** | **49** | **1** | **0** | **0** |
