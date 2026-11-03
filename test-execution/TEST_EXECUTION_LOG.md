@@ -146,3 +146,29 @@ A tester-reported result is distinguished from a screenshot-backed observation i
 | Navigation | 5 | 5 | 0 | 0 | 0 |
 | Logout/session | 4 | 4 | 0 | 0 | 0 |
 | **Overall executed** | **41** | **41** | **0** | **0** | **0** |
+
+
+## Cart and checkout edge-case execution results
+
+| Test Case ID | Date | Status | Actual result | Evidence |
+|---|---|---|---|---|
+| SD-EDGE-001 | 2026-11-03 | Pass | Opened the cart with no products; tester reported the empty-cart behaviour was as expected. | Tester-reported result |
+| SD-EDGE-002 | 2026-11-03 | Review required | With an empty cart, entered checkout information and reached the order overview. The overview displayed no product rows and showed Item total: $0, Tax: $0.00, Total: $0.00. This behaviour needs requirement review; it is not automatically classified as a defect. | Screenshots shared in conversation |
+| SD-EDGE-003 | 2026-11-03 | Pass | Added a product, removed it, and added it again; tester reported cart state updated correctly. | Tester-reported result |
+| SD-EDGE-004 | 2026-11-03 | Pass | Added multiple products and checked item count and order summary; tester reported expected behaviour. | Tester-reported result |
+
+## Updated summary
+
+| Category | Checks | Passed | Failed | Review required | Not run |
+|---|---:|---:|---:|---:|---:|
+| Login | 7 | 7 | 0 | 0 | 0 |
+| Inventory | 6 | 6 | 0 | 0 | 0 |
+| Product sorting | 5 | 5 | 0 | 0 | 0 |
+| Shopping cart | 7 | 7 | 0 | 0 | 0 |
+| Checkout | 7 | 7 | 0 | 0 | 0 |
+| Navigation | 5 | 5 | 0 | 0 | 0 |
+| Logout/session | 4 | 4 | 0 | 0 | 0 |
+| Cart/checkout edge cases | 4 | 3 | 0 | 1 | 0 |
+| **Overall** | **45** | **44** | **0** | **1** | **0** |
+
+Review note: SD-EDGE-002 demonstrates that the demo permits progression to an empty order overview showing $0.00 totals. Confirm intended requirements before deciding whether this is a defect. Do not report it as a confirmed bug yet.
