@@ -37,3 +37,22 @@
 | **Overall executed** | **13** | **13** | **0** | **0** | **0** |
 
 A tester-reported result is distinguished from a screenshot-backed observation in the evidence column.
+
+
+## Product sorting test execution results
+
+| Test Case ID | Date | Status | Actual result | Evidence |
+|---|---|---|---|---|
+| SD-SORT-001 | 2026-11-03 | Pass | Name (A to Z) selected; tester reported sorting worked correctly. | Tester-reported result |
+| SD-SORT-002 | 2026-11-03 | Pass | Name (Z to A) selected; tester reported sorting worked correctly. | Tester-reported result |
+| SD-SORT-003 | 2026-11-03 | Pass | Price (low to high) selected; tester reported sorting worked correctly. | Tester-reported result |
+| SD-SORT-004 | 2026-11-03 | Pass | Price (high to low) selected; screenshot shows descending price order beginning with $49.99 then $29.99, followed by $15.99 items. | Screenshot shared in conversation |
+| SD-SORT-005 | 2026-11-03 | Pass | Tester changed sorting options several times and reported that the order updated correctly. | Tester-reported result |
+
+## Updated summary
+| Category | Total | Passed | Failed | Blocked | Not run |
+|---|---:|---:|---:|---:|---:|
+| Login | 7 | 7 | 0 | 0 | 0 |
+| Inventory | 6 | 6 | 0 | 0 | 0 |
+| Product sorting | 5 | 5 | 0 | 0 | 0 |
+| **Overall executed** | **18** | **18** | **0** | **0** | **0** |
