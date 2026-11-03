@@ -56,3 +56,25 @@ A tester-reported result is distinguished from a screenshot-backed observation i
 | Inventory | 6 | 6 | 0 | 0 | 0 |
 | Product sorting | 5 | 5 | 0 | 0 | 0 |
 | **Overall executed** | **18** | **18** | **0** | **0** | **0** |
+
+
+## Shopping cart test execution results
+
+| Test Case ID | Date | Status | Actual result | Evidence |
+|---|---|---|---|---|
+| SD-CART-001 | 2026-11-03 | Pass | Added one product; tester reported expected cart behaviour. | Tester-reported result |
+| SD-CART-002 | 2026-11-03 | Pass | Added a second product; tester reported cart count updated correctly. | Tester-reported result |
+| SD-CART-003 | 2026-11-03 | Pass | Opened cart; tester reported both products appeared. | Tester-reported result |
+| SD-CART-004 | 2026-11-03 | Pass | Removed one product; tester reported remaining product stayed in cart. | Tester-reported result |
+| SD-CART-005 | 2026-11-03 | Pass | Removed all products; tester reported cart became empty. | Tester-reported result |
+| SD-CART-006 | 2026-11-03 | Pass | Returned to inventory using Continue Shopping; tester reported navigation worked. | Tester-reported result |
+| SD-CART-007 | 2026-11-03 | Pass | Added several products and checked names/prices; tester reported details were correct. | Tester-reported result |
+
+## Updated summary
+| Category | Total | Passed | Failed | Blocked | Not run |
+|---|---:|---:|---:|---:|---:|
+| Login | 7 | 7 | 0 | 0 | 0 |
+| Inventory | 6 | 6 | 0 | 0 | 0 |
+| Product sorting | 5 | 5 | 0 | 0 | 0 |
+| Shopping cart | 7 | 7 | 0 | 0 | 0 |
+| **Overall executed** | **25** | **25** | **0** | **0** | **0** |
