@@ -123,3 +123,26 @@ A tester-reported result is distinguished from a screenshot-backed observation i
 | Checkout | 7 | 7 | 0 | 0 | 0 |
 | Navigation | 5 | 5 | 0 | 0 | 0 |
 | **Overall executed** | **37** | **37** | **0** | **0** | **0** |
+
+
+## Logout and session test execution results
+
+| Test Case ID | Date | Status | Actual result | Evidence |
+|---|---|---|---|---|
+| SD-LOGOUT-001 | 2026-11-03 | Pass | Logout selected from the menu; login page appeared. | Tester-reported result |
+| SD-LOGOUT-002 | 2026-11-03 | Pass | After logout, browser Back did not restore an active logged-in session. | Tester-reported result |
+| SD-LOGOUT-003 | 2026-11-03 | Pass | Refreshing the login page kept the login page available. | Tester-reported result |
+| SD-LOGOUT-004 | 2026-11-03 | Pass | Standard demo credentials successfully opened a new session. | Tester-reported result |
+
+## Updated summary
+
+| Category | Total | Passed | Failed | Blocked | Not run |
+|---|---:|---:|---:|---:|---:|
+| Login | 7 | 7 | 0 | 0 | 0 |
+| Inventory | 6 | 6 | 0 | 0 | 0 |
+| Product sorting | 5 | 5 | 0 | 0 | 0 |
+| Shopping cart | 7 | 7 | 0 | 0 | 0 |
+| Checkout | 7 | 7 | 0 | 0 | 0 |
+| Navigation | 5 | 5 | 0 | 0 | 0 |
+| Logout/session | 4 | 4 | 0 | 0 | 0 |
+| **Overall executed** | **41** | **41** | **0** | **0** | **0** |
