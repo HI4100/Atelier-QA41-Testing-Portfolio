@@ -14,26 +14,42 @@ Application: https://www.saucedemo.com/
 | SD-LOGIN-006 | Incorrect password | Enter valid demo username and incorrect password; click Login. | Login is rejected with an authentication error. | Pass |
 | SD-LOGIN-007 | Locked account | Enter documented locked-out demo username and password; click Login. | Login is blocked with an explanatory message. | Pass |
 
-### Observed messages
+### Observed login messages
 - LOGIN-002: "Epic sadface: Username is required"
 - LOGIN-003: "Epic sadface: Username is required"
-- LOGIN-004: "Epic sadface: Password is require" (transcribed as reported; check screenshot for exact spelling)
+- LOGIN-004: "Epic sadface: Password is require" (transcribed as reported)
 - LOGIN-005 and LOGIN-006: "Epic sadface: Username and password do not match any user in this service"
 - LOGIN-007: "Epic sadface: Sorry, this user has been locked out."
+
+## Inventory and product listing
+
+| ID | Test | Steps | Expected result | Status |
+|---|---|---|---|---|
+| SD-INV-001 | Inventory loading | Log in and inspect inventory. | Inventory page and product cards load. | Pass |
+| SD-INV-002 | Product text | Inspect product names and descriptions. | Product names and descriptions are visible and correct. | Pass |
+| SD-INV-003 | Product prices | Inspect product prices. | Prices are visible. | Pass |
+| SD-INV-004 | Product images | Inspect product images. | Product images load. | Pass |
+| SD-INV-005 | Product details | Open a product detail page. | Product name, description, image, price and action are displayed. | Pass |
+| SD-INV-006 | Return to inventory | Use Back to products. | Inventory page is displayed again. | Pass |
+
+The supplied product-detail screenshot shows Sauce Labs Backpack with image, description, price ($29.99), Add to cart button, and Back to products link. The tester reported all six inventory checks as successful.
 
 ## Remaining functional test cases
 
 | ID | Feature | Test steps | Expected result | Status |
 |---|---|---|---|---|
-| SD-INV-001 | Inventory | Log in and inspect product listing. | Product cards display product information and actions. | Not Run |
-| SD-INV-002 | Sorting | Select each available sort option. | Products reorder according to selected option. | Not Run |
+| SD-SORT-001 | Sorting | Select Name (A to Z). | Products sort alphabetically ascending. | Not Run |
+| SD-SORT-002 | Sorting | Select Name (Z to A). | Products sort alphabetically descending. | Not Run |
+| SD-SORT-003 | Sorting | Select Price (low to high). | Prices sort ascending. | Not Run |
+| SD-SORT-004 | Sorting | Select Price (high to low). | Prices sort descending. | Not Run |
+| SD-SORT-005 | Sorting | Change sort options repeatedly. | Product order updates correctly each time. | Not Run |
 | SD-CART-001 | Cart | Add one product to cart. | Cart indicator updates and product appears in cart. | Not Run |
 | SD-CART-002 | Cart | Remove an added product. | Cart indicator and contents update. | Not Run |
 | SD-CART-003 | Cart | Open cart after adding multiple products. | Cart shows selected products and visible details. | Not Run |
 | SD-CHECKOUT-001 | Checkout | Submit checkout form with required fields empty. | Validation prevents progression. | Not Run |
 | SD-CHECKOUT-002 | Checkout | Enter fictitious demo information and continue. | User proceeds to order overview. | Not Run |
-| SD-CHECKOUT-003 | Checkout | Review overview and finish order. | Confirmation page is displayed. | Not Run |
-| SD-NAV-001 | Navigation | Use app controls to return to inventory. | User returns to expected page without unexpected error. | Not Run |
+| SD-CHECKOUT-003 | Checkout | Review overview and finish order. | Order confirmation is displayed. | Not Run |
+| SD-NAV-001 | Navigation | Use app controls to navigate between pages. | Expected page is displayed. | Not Run |
 | SD-LOGOUT-001 | Logout | Open menu and select Logout. | Login page is displayed. | Not Run |
 
 Use only demo credentials published by SauceDemo. Never store passwords, tokens, or personal data in this repository. Record actual observations; do not infer success.
