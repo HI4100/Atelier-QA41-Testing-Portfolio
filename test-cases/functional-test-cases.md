@@ -59,11 +59,20 @@ Application: https://www.saucedemo.com/
 | SD-CHECKOUT-006 | Review product details and displayed totals. | Values are consistent with cart and displayed calculations. | Pass |
 | SD-CHECKOUT-007 | Select Finish. | Order confirmation page appears. | Pass |
 
+## Navigation
+
+| ID | Test | Expected result | Status |
+|---|---|---|---|
+| SD-NAV-001 | Open hamburger menu. | Navigation menu appears. | Pass |
+| SD-NAV-002 | Select All Items. | Inventory page opens. | Pass |
+| SD-NAV-003 | Select About. | Expected external page opens. | Pass |
+| SD-NAV-004 | Select Continue Shopping from cart. | Inventory page opens. | Pass |
+| SD-NAV-005 | Use browser Back and Forward during navigation. | Navigation behaves as expected. | Pass |
+
 ## Remaining functional test cases
 
 | ID | Feature | Test | Expected result | Status |
 |---|---|---|---|---|
-| SD-NAV-001 | Navigation | Use app controls to navigate between pages. | Expected page is displayed. | Not Run |
 | SD-LOGOUT-001 | Logout | Open menu and select Logout. | Login page is displayed. | Not Run |
 
 Use only demo credentials published by SauceDemo. Never store passwords, tokens, or personal data in this repository. Record actual observations; do not infer success.
