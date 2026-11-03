@@ -1,9 +1,9 @@
 # Bug Report Template
 
-> Copy this template for each verified, reproducible defect. Do not create speculative or invented bug reports.
+Copy for each verified, reproducible defect. Do not create speculative or invented reports.
 
 ## Summary
-A concise description of the problem.
+Concise description of the problem.
 
 ## Bug ID
 Example: SD-BUG-001
@@ -24,10 +24,10 @@ Required account state, page, or setup.
 3.
 
 ## Expected result
-What should happen, based on observable requirements.
+What should happen based on observable requirements.
 
 ## Actual result
-What happened instead. Include the exact visible message where useful.
+What happened instead; include exact visible message where useful.
 
 ## Reproducibility
 - Reproduced: __ / __ attempts
@@ -40,7 +40,7 @@ Critical / High / Medium / Low — explain impact.
 High / Medium / Low — explain urgency.
 
 ## Evidence
-Screenshot or screen recording filename. Remove any sensitive information before committing evidence.
+Screenshot or recording filename. Remove sensitive information before committing.
 
 ## Status
 New / Triaged / In Progress / Fixed / Retest / Closed

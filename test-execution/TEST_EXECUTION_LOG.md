@@ -1,6 +1,6 @@
 # Test Execution Log
 
-Use one row per execution. Do not fill a status until the test has actually been run.
+Fill one row per execution. Do not set a result until the test has actually been run.
 
 ## Environment
 - Application URL: https://www.saucedemo.com/
@@ -11,7 +11,6 @@ Use one row per execution. Do not fill a status until the test has actually been
 - Tester: Humza Warsi
 
 ## Execution results
-
 | Test Case ID | Date | Status (Pass/Fail/Blocked/Not Run) | Actual result / notes | Evidence |
 |---|---|---|---|---|
 | SD-LOGIN-001 | — | Not Run | — | — |
@@ -31,10 +30,10 @@ Use one row per execution. Do not fill a status until the test has actually been
 | SD-LOGOUT-001 | — | Not Run | — | — |
 
 ## Summary
-- Total cases: 15
+- Total: 15
 - Passed: 0
 - Failed: 0
 - Blocked: 0
 - Not run: 15
 
-Update these figures whenever execution statuses change.
+Update counts whenever statuses change.
