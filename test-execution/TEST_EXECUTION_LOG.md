@@ -172,3 +172,31 @@ A tester-reported result is distinguished from a screenshot-backed observation i
 | **Overall** | **45** | **44** | **0** | **1** | **0** |
 
 Review note: SD-EDGE-002 demonstrates that the demo permits progression to an empty order overview showing $0.00 totals. Confirm intended requirements before deciding whether this is a defect. Do not report it as a confirmed bug yet.
+
+
+## UI and usability test execution results
+
+| Test Case ID | Date | Status | Actual result | Evidence |
+|---|---|---|---|---|
+| SD-UI-001 | 2026-11-03 | Pass | Tester inspected the application and reported no broken or missing images. | Tester-reported result |
+| SD-UI-002 | 2026-11-03 | Pass | Tester checked buttons and links and reported that they were visible and usable. | Tester-reported result |
+| SD-UI-003 | 2026-11-03 | Pass | Tester resized the browser window and reported that the layout remained usable. | Tester-reported result |
+
+An additional result was reported as "UI04 - PERFECT", but its test action and expected result were not specified. It is not included in the test count until its scope is clarified.
+
+## Updated summary
+
+| Category | Checks | Passed | Failed | Review required | Not run |
+|---|---:|---:|---:|---:|---:|
+| Login | 7 | 7 | 0 | 0 | 0 |
+| Inventory | 6 | 6 | 0 | 0 | 0 |
+| Product sorting | 5 | 5 | 0 | 0 | 0 |
+| Shopping cart | 7 | 7 | 0 | 0 | 0 |
+| Checkout | 7 | 7 | 0 | 0 | 0 |
+| Navigation | 5 | 5 | 0 | 0 | 0 |
+| Logout/session | 4 | 4 | 0 | 0 | 0 |
+| Cart/checkout edge cases | 4 | 3 | 0 | 1 | 0 |
+| UI and usability | 3 | 3 | 0 | 0 | 0 |
+| **Overall** | **48** | **47** | **0** | **1** | **0** |
+
+Review note: SD-EDGE-002 demonstrates that the demo permits progression to an empty order overview showing $0.00 totals. Confirm intended requirements before deciding whether this is a defect.
