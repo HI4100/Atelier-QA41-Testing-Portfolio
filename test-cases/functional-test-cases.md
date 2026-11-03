@@ -69,6 +69,15 @@ Application: https://www.saucedemo.com/
 | SD-NAV-004 | Select Continue Shopping from cart. | Inventory page opens. | Pass |
 | SD-NAV-005 | Use browser Back and Forward during navigation. | Navigation behaves as expected. | Pass |
 
+## Logout and session
+
+| ID | Test | Expected result | Status |
+|---|---|---|---|
+| SD-LOGOUT-001 | Select Logout from the hamburger menu. | Login page appears. | Pass |
+| SD-LOGOUT-002 | Use browser Back after logout. | An active logged-in session is not restored. | Pass |
+| SD-LOGOUT-003 | Refresh the login page. | Login page remains available. | Pass |
+| SD-LOGOUT-004 | Log in again with standard demo credentials. | A new session opens successfully. | Pass |
+
 ## Remaining functional test cases
 
 | ID | Feature | Test | Expected result | Status |
