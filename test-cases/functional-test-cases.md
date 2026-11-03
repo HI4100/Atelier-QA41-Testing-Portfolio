@@ -79,3 +79,13 @@ Application: https://www.saucedemo.com/
 | SD-LOGOUT-004 | Log in again with standard demo credentials. | A new session opens successfully. | Pass |
 
 Use only demo credentials published by SauceDemo. Never store passwords, tokens, or personal data in this repository. Record actual observations; do not infer success.
+
+
+## UI and usability
+
+| ID | Test | Expected result | Status |
+|---|---|---|---|
+| SD-UI-001 | Inspect application for broken or missing images. | Images load correctly. | Pass |
+| SD-UI-002 | Check buttons and links for visibility and usability. | Controls are visible and usable. | Pass |
+| SD-UI-003 | Resize browser window and inspect layout. | Layout remains usable at tested window sizes. | Pass |
+
