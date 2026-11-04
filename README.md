@@ -1,4 +1,4 @@
-# Atelier QA41 — Software Testing Portfolio
+# ATELIER 41 | QA Testing Portfolio
 
 A beginner QA testing portfolio built around hands-on functional, UI, session, exploratory, and API testing practice using the public SauceDemo demo application.
 
@@ -83,3 +83,14 @@ This is a learning and portfolio project, not a formal certification or an indep
 
 **Humza Warsi**  
 GitHub: https://github.com/HI4100
+
+
+---
+
+## ✨ ATELIER 41 Signature
+
+> **Build it clearly. Test it carefully. Document it honestly. Improve it continuously.**
+
+This project is part of my **ATELIER 41** portfolio — a connected collection of practical projects built and documented by **Humza Warsi**.
+
+🔗 GitHub: [@HI4100](https://github.com/HI4100) • ✨ **ATELIER 41**
